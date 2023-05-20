@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-white m-0 font-nunito scroll-smooth;
+}
+
+.semiBold-header {
+	@apply font-semibold text-darkPurple text-center text-6xl px-20;
+}
+
+.bold-header {
+	@apply font-semibold text-tintWhite text-6xl;
+}
+
+.desc {
+	@apply text-base;
+}
