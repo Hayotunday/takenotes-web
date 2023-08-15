@@ -9,13 +9,14 @@ const Nav = () => {
 	const handleClick = (e) => {};
 
 	return (
-		<div className="flex justify-between items-center w-full px-20 pt-11">
+		<div className="md:flex justify-between items-center w-full px-20 pt-11 hidden ">
 			<Link href={"/"} className="-ml-10">
 				<Image
 					src={"/assets/images/logo.png"}
 					width={285}
 					height={50}
 					alt="Takenotes Logo"
+					className=""
 				/>
 			</Link>
 			<div className="">

@@ -9,6 +9,15 @@ var descMessage = `Lorem ipsum dolor sit amet consectetur. Sed eget enim nisi ne
 
 var featureMessage = `Lorem ipsum dolor sit amet consectetur. Sed orci at posuere posuere at mi quis aliquam et. Mauris fermentum at`;
 
+var serviceMessage = `Lorem ipsum dolor sit amet consectetur. In donec suspendisse ultricies id torto`;
+
+var question = `Lorem ipsum dolor sit amet consectetur ?`;
+
+var answer = `Lorem ipsum dolor sit amet consectetur. Sed eget enim nisi netus iaculis.
+Diam mauris lobortis aliquam euismod bibendum morbi bibendum eu.
+Lacinia nisi enim tempor suscipit nunc quis dolor duis. 
+Ac lacus turpis lobortis id accumsan feugiat amet.`;
+
 export const appDescData = [
   {
     alt: 'app mockup i',
@@ -48,5 +57,41 @@ export const appFeatureData = [
   },
   {
     header: 'Team management', icon: '/assets/icons/team.svg', desc: featureMessage,
+  },
+]
+
+export const appQuestionData = [
+  {
+    question, answer,
+  },
+  {
+    question, answer,
+  },
+  {
+    question, answer,
+  },
+  {
+    question, answer,
+  },
+]
+
+export const appServiceData = [
+  {
+    header: 'People Trust Us', icon: '/assets/icons/icon1.svg', desc: serviceMessage, color: '#FF5975',
+  },
+  {
+    header: 'Business Trust Us', icon: '/assets/icons/icon2.svg', desc: serviceMessage, color: '#F7B500',
+  },
+  {
+    header: 'Partner Trust Us', icon: '/assets/icons/icon3.svg', desc: serviceMessage, color: '#0061FF',
+  },
+  {
+    header: '24/7 Customer Support', icon: '/assets/icons/icon4.svg', desc: serviceMessage, color: '#B3CCFF',
+  },
+  {
+    header: 'Encryption', icon: '/assets/icons/icon5.svg', desc: serviceMessage, color: '#81E650',
+  },
+  {
+    header: 'Security Standards', icon: '/assets/icons/icon6.svg', desc: serviceMessage, color: '#E7636E',
   },
 ]

@@ -9,11 +9,11 @@ body {
 }
 
 .semiBold-header {
-	@apply font-semibold text-darkPurple text-center text-6xl px-20;
+	@apply font-semibold text-darkPurple text-center text-5xl md:text-6xl md:px-20;
 }
 
 .bold-header {
-	@apply font-semibold text-tintWhite text-6xl;
+	@apply font-semibold text-tintWhite text-5xl md:text-6xl;
 }
 
 .desc {
